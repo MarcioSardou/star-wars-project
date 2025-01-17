@@ -7,11 +7,8 @@ export default function Home() {
 
 
   return (
-    <>
-      <Header />
-      <main className="flex items-center justify-center h-screen">
+      <main className="flex items-center justify-center h-screen w-screen">
        <Greeting />
       </main>
-    </>
   );
 }
